@@ -8,18 +8,14 @@
     <link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon">
 </head>
 <body>
-    <header>
-          <h1>EL QUIZ</h1>
-          <h1>DE LOS</h1>
-          <h1>ANILLOS</h1>                
-    </header>
+
   <main>
 
     <img src="./media/sprite.png">     
     
       <form id="formulario">     
           <fieldset id="quiz1">  
-          <h3>Cuál de los hobbits es el Portador del Anillo Único?</h3>  
+          <h3>¿Cuál de los hobbits es el Portador del Anillo Único?</h3>  
               <div id="elecciones">
                 <input id="merry" type="radio" name="pregunta1" value="merry" required>
                 <label for="merry">Merry</label>             
@@ -40,13 +36,13 @@
               <h3>Selecciona el apodo por el que se conoce al personaje de Gandalf</h3>
               <div id="elecciones">
                 <input id="elrojo" type="radio" name="pregunta2" value="elrojo" required>
-                <label for="elrojo">El rojo</label>
+                <label for="elrojo">El Rojo</label>
                 <input id="elgris" type="radio" name="pregunta2" value="elgris">
-                <label for="elgris">El gris</label>           
+                <label for="elgris">El Gris</label>           
                 <input id="elviejo" type="radio" name="pregunta2" value="elviejo">
-                <label for="elviejo">El viejo</label>                
+                <label for="elviejo">El Viejo</label>                
                 <input id="elguarro" type="radio" name="pregunta2" value="elguarro">
-                <label for="elguarro">El guarro</label>
+                <label for="elguarro">El Guarro</label>
               </div> 
             </fieldset>
         
@@ -152,7 +148,7 @@
               <h3>¿De qué conocido cantante es hija la actriz que interpreta a Arwen?</h3>
               <div id="elecciones">
                 <input id="tyler" type="radio" name="pregunta9" value="tyler" required>
-                <label for="tyler">Steve Tyler</label>           
+                <label for="tyler">Steven Tyler</label>           
                 <input id="elvis" type="radio" name="pregunta9" value="elvis">
                 <label for="elvis">Elvis</label>           
                 <input id="fary" type="radio" name="pregunta9" value="fary">
@@ -165,7 +161,7 @@
             <img class="oculto" id="imagenResultado" src="./media/arwen.gif">
 
             <fieldset id="quiz10">
-                <h3>Indica qué enano no acomapañó a Bilbo a la Montaña Solitaria</h3>
+                <h3>Indica qué enano NO acomapañó a Bilbo a la Montaña Solitaria</h3>
                 <div id="elecciones">
                   <input id="kili" type="radio" name="pregunta10" value="kili" required>
                   <label for="kili">Kili</label>          
@@ -179,19 +175,20 @@
             </fieldset>
             <img class="oculto" id="imagenResultado" src="./media/dwarf.gif">
             <br>
-          <button type="submit">Comprobar resultados</button>
+          <button type="submit" >Comprobar resultados</button>
           <div id="resultados">
 
           </div>
       </form>
 
-      <img class="oculto" id="imagenResultado" src="./media/its-done.gif">
-
-  </main>
+      <img class="oculto" id="imagenResultado" class="its_done" src="./media/its-done.gif">
+    
+      <a href="./index.html"><input id="atras" type="button" value="Atrás"></a>
+    
 
   <footer>
       <p>¡Gracias por participar!</p>
-      <audio src="./media/Hobbits.mp3" autoplay> Your browser does not support the <code>audio</code> element</audio>
+      <audio src="./media/Concerning Hobbits.mp3" autoplay> Your browser does not support the <code>audio</code> element</audio>
     </footer>
     <script src="./script/script.js"></script>
 </body>
