@@ -10,12 +10,13 @@ This is a simple quiz application created using HTML, CSS, and JavaScript. The a
 ..**JavaScript*: JavaScript is used for the interactivity of the quiz. It handles user input, validation, and feedback.
 
 #### How to Play
-Open the index.html file in your web browser.
 
-Start answering the questions by selecting the radio buttons.
+1.Open the index.html file in your web browser.
 
-Hit the "Validate" button to check your answers.
+2.Start answering the questions by selecting the radio buttons.
 
-See the feedback on each question and your grand total score.
+3.Hit the "Validate" button to check your answers.
 
-Please, be free to send feedback about any issues that the app may incurn.
+4.See the feedback on each question and your grand total score.
+
+Please, be free to send anything about any issues that the app may incurn.
