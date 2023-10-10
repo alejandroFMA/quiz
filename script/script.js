@@ -38,7 +38,6 @@ validarRespuestas.addEventListener("click", (event) => {
     for (let i = 0; i < respuestasElement.length; i++) {  //iteracion por todos los inputs
         let respuesta = respuestasElement[i];
         let labelElement = document.querySelector(`label[for=${respuesta.id}]`);
-    
         /*if (respuestaElement.length === 0) {
             alert("¡Debes responder a todas las preguntas!");
         }*/
@@ -64,7 +63,9 @@ validarRespuestas.addEventListener("click", (event) => {
 
     h4.appendChild(result);
     document.getElementById("resultados").appendChild(h4)
-    
+    let imagenes = document.querySelectorAll('img');
+    imagenes.forEach((imagen) => {imagen.classList.remove('oculto'); })
+
 })  
 
 
